@@ -20,6 +20,7 @@ import {
 } from "@/components/ui/tooltip";
 import TeamDistributionChart from "./team-distribution-chart";
 import SupportTicketsResolved from "./support-tickets-resolved";
+import { Alert } from "./alert-dialog";
 
 const teamLeaders = [
   {
@@ -78,7 +79,8 @@ export default function TeamsStats() {
             </div>
             <div>
               <Button size="xs" asChild>
-                <Link href="/dashboard/teams">View all</Link>
+                <Alert />
+                {/*  <Link href="/dashboard/teams">View all</Link> */}
               </Button>
             </div>
           </CardContent>
