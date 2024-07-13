@@ -17,7 +17,7 @@ export function Alert() {
       <AlertDialogTrigger asChild>
         <Button>view all</Button>
       </AlertDialogTrigger>
-      <AlertDialogContent>
+      <AlertDialogContent className=" w-[calc(100%-32px)] sm:w-full max-w-lg ">
         <AlertDialogHeader>
           <AlertDialogTitle>Not available</AlertDialogTitle>
           <AlertDialogDescription>
